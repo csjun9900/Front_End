@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+header {
+  height: 40px;
+  line-height: 1.6;
+}
+
+header ul {
+  list-style: none;
+  float: right;
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-right: 70px;
+}
+
+header li {
+  float: left;
+}
+
+header a {
+  display: block;
+  width: 100px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mainlink {
+  padding: 0 70px;
+  height: 50px;
+}
+
+.mainlink img {
+  float: left;
+}
+
+.mainlink ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mainlink li {
+  float: left;
+}
+
+.mainlink a {
+  display: block;
+  width: 190px;
+  text-align: center;
+  padding-top: 30px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.mainlink a:hover {
+  color: red;
+}
+
+.main {
+  height: 800px;
+  background-image: url(./yjmain.jpg);
+  background-repeat: no-repeat;
+  background-size: 2700px 800px;
+  margin-top: 30px;
+}
+
+.news {
+  width: 330px;
+  height: 250px;
+  background-color: black;
+  opacity: 0.7;
+  padding: 1%;
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.line {
+  display: block;
+  color: white;
+  font-size: 2em;
+}
+
+.news a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu {
+  width: 65%;
+  height: 150px;
+  position: relative;
+  top: 600px;
+  left: 250px;
+}
+
+.link {
+  float: left;
+  width: 20%;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.link:nth-last-of-type(2n) {
+  background-color: gray;
+  opacity: 0.7;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 3;
+  line-height: 3.5;
+}
+
+.menu a:hover {
+  background-color: orange;
+}
+
+.footmenu ul {
+  list-style: none;
+  padding: 0;
+  background-color: gray;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.footmenu li {
+  float: left;
+}
+
+.footmenu a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  width: 170px;
+  height: 30px;
+  line-height: 1.6;
+  padding-left: 70px;
+}
+
+footer {
+  height: 100px;
+  border: 1px solid gray;
+  opacity: 0.8;
+}
+
+footer p {
+  padding-left: 70px;
+}
